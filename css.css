@@ -218,9 +218,10 @@ padding:32px 7px 0px 0px;
     color:#FFFFFF;
     display:flex;
     justify-content:space-evenly;
-    height:29px;
-    width:1220px;
+    height: 39px;
+    width:100vw;
     align-items:center;
+   
 }
 
 a{
@@ -230,7 +231,40 @@ a{
     font-size: medium;
 }
 .panel-opt{
+  font-size:0.85rem;
+    width:70%;
+
+}
+.panel-opt p{
+    display:inline;
+    margin-left:15px;
+    
+
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:bold;
+    
+}
+.hero-section{
+    background-image:url("https://m.media-amazon.com/images/I/71GGl3UpyOL._SX3000_.jpg");
     display:flex;
-    justify-content:center;
     align-items:center;
+    width:100vw;
+    height:600px;
+        background-size:cover;
+}
+.hero-msg{
+    background-color:#f5f6f6;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-size:0.85rem;
+    width:90%;
+    margin-left:55px;
+}
+.hero-msg a{
+    color:#007185; 
 }
